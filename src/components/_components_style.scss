@@ -1,0 +1,45 @@
+.title {
+  text-transform: capitalize;
+}
+
+.card-container {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#main-page {
+  .post-title {
+    display: block;
+    color: red;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #111;
+    margin-bottom: 10px;
+  }
+
+  .user-id {
+    font-size: 0.9rem;
+  }
+}
+
+#blog {
+  .card-container {
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 130px;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+}
+
+#users {
+  .card-container {
+    margin-bottom: 15px;
+  }
+}
+
+#album {
+  .card-container {
+    margin-bottom: 15px;
+    padding: 10px 15px;
+  }
+}
